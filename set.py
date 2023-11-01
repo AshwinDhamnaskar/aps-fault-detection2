@@ -1,8 +1,10 @@
 from setuptools import find_packages,setup
 
+from typing import List
 
-def get_requirements():
-    pass
+def get_requirements()->List[str]:
+
+REQUIREMENT_FILE_NAME="requirements.txt"    
 
 setup(
     name = "sesnor",
